@@ -1,0 +1,42 @@
+[
+  {
+    "sensor": "ESP32_01",
+    "temperatura": 28.3,
+    "humedad": 60
+  },
+  {
+    "sensor": "ESP32_02",
+    "temperatura": 31.7,
+    "humedad": 55
+  },
+  {
+    "sensor": "ESP32_01",
+    "temperatura": 32.1,
+    "humedad": 45
+  },
+  {
+    "sensor": "ESP32_02",
+    "temperatura": 33.9,
+    "humedad": 50
+  },
+  {
+    "sensor": "ESP32_01",
+    "temperatura": 29.5,
+    "humedad": 58
+  },
+  {
+    "sensor": "ESP32_02",
+    "temperatura": 30.2,
+    "humedad": 53
+  },
+  {
+    "sensor": "ESP32_01",
+    "temperatura": 27.8,
+    "humedad": 62
+  },
+  {
+    "sensor": "ESP32_02",
+    "temperatura": 34.1,
+    "humedad": 48
+  }
+]
