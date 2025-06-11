@@ -14,16 +14,13 @@ def filtrar_sensor(lecturas, nombre_sensor:str):
         nombre_sensor (str): Nombre del sensor a filtrar """
     return  [x for x in lecturas if x["sensor"] == nombre_sensor]
 
-def calcular_promedio(lecturas):
+def calcular_promedio(lecturas,campo:str = "temperatura"):
     """Calcula el promedio de las temperaturas de las lecturas."""
 
     if not lecturas:
         return 0
-    suma_temp = sum(x["temperatura"] for x in lecturas)
-    suma_hum= sum(x["humedad"] for x in lecturas)
-    promedio_temp = round(suma_temp / len(lecturas), 2)
-    promedio_hum = round(suma_hum / len(lecturas), 2)
-    return promedio_temp, promedio_hum
+    sum = sum(x[campo] for x in lecturas)
+    return round(sum/len(lecturas), 2)
 
 def verificar_alerta(lecturas):
     """Verifica si alguna lectura supera un umbral de temperatura."""

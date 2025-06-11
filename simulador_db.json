@@ -1,0 +1,12 @@
+[
+  {
+    "sensor": "ESP32_01",
+    "temperatura": 33,
+    "humedad": 62
+  },
+  {
+    "sensor": "ESP32_01",
+    "temperatura": 28,
+    "humedad": 50
+  }
+]
